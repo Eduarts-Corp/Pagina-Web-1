@@ -10,14 +10,15 @@
 body {
     background: black;
     /*Para el color de fondo*/
-    color: white;
-    /*Para el color de lo que sea texto*/
+    color:yellowgreen;
+    /*Para el color de lo que sea texto*/    
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23924133' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     /*Para poner el patron de fondo que es las lineas que se repiten, tambien se puso en el html para que sea invocado desde alla*/
     font-size: 16px;
     /*Para el tamaño de la fuente*/
     font-family: 'Oswald', sans-serif;
     /*Para el tipo de fuente que fue sacado de la pagina de google fonts oswald*/
+    
 }
 
 a {
@@ -113,7 +114,7 @@ hr {
     /*Para que de el ancho total*/
     height: 550px;
     /*Para darle un alto a la imagen que vamos a poner*/
-    background: url('./img/showcase2.jpg') no-repeat center center/cover;
+    background: url('./img/showcase3.jpg') no-repeat center center/cover;
     /*Es una imagen que saque de la pagina pexels y se guardo en la carpeta img*/
     padding-bottom: 50px;
     /*Un espaciado para los elementos que luego pongamos debajo*/
@@ -133,7 +134,9 @@ hr {
     cursor: pointer;
     /*Para que parezca un icono de boton*/
     display: inline-block;
+
     border: 0;
+
     font-weight: 0;
     /*Para darle un cierto ancho a la imagen si le pongo bold se distociona asi lo tiene el video en bold*/
     padding: 10px 20px;
@@ -142,9 +145,9 @@ hr {
     /*Para el color de fondo del boton*/
     color: yellow;
     /*Para el color de la letra del boton*/
-    font-size: 16px;
+    font-size: 20px;
     /*Para el tamaño de la letra*/
-    border: 1px solid white;
+    border: 1px solid rgb(245, 6, 6);
     /*Para el tamaño del borde del boton*/
     margin: 15px;
     /*Para separarlo un poco de la letra que esta arriba*/
@@ -155,11 +158,29 @@ hr {
     /*Para darle una opacidad al boton cuando se posicione el cursor sobre este*/
 }
 
+.showcase h2{
+    color: yellow;
+    border: 1px solid white;
+    padding: 5px;
+    background: #262626;
+    opacity: .8;
+}
+
 .showcase h2,
 .showcase p {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     /*Para que esos 2 textos no queden tan pegados*/
 }
+
+.showcase p {
+    padding: 50px;
+    text-justify: auto;  
+    background: #262626;
+    opacity: .9;  
+    /*Para que esos 2 textos no queden tan pegados a las margenes*/
+}
+
+
 
 
 /*NEWS CARDS*/
@@ -189,10 +210,10 @@ hr {
 }
 
 .news-cards a {
-    /*Aca es para que tenga margenes de 10 px hacia abajo y 0 hacia los lados*/
-    padding: 10px 0;
-    color: #f2f2f2;
-    text-transform: uppercase;
+    /*Aca es para que el Boton del Banner 2 tenga margenes de 10 px hacia abajo y 0 hacia los lados*/
+    padding: 10px 8px;
+    color: #e7f70a;
+    /*text-transform: uppercase;*/ /*Con esto el la letra del boton del banner quedaba en mayuscula*/
     display: inline-block;
     font-weight: bold;
 }
@@ -212,7 +233,7 @@ hr {
 
 .cards-banner-one .content h2,
 .cards-banner-one .content p {
-    width: 40%;
+    width: 100%;
     padding: 2px 0 0 3px;
     color: #ffffff;
 }
@@ -239,12 +260,14 @@ hr {
 }
 
 
+
+
 /*SECCION SOCIAL */
 
 .social p {
     text-align: center;
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .links {
@@ -254,7 +277,7 @@ hr {
 }
 
 .links a {
-    margin: 30px 30px;
+    margin: 15px 40px 20px;
     /*Para la separacion entre los iconos de facebook etc*/
     /*El primer 30 es para la separacion con lo que tendra abajo el segundo si es lo que dice arriba*/
 }
@@ -297,12 +320,15 @@ hr {
 
 .footer {
     background: #2f3640;
-    color: #e7f523;
-    font-size: 20px;
+    color:yellowgreen;
+    font-size: 25px;
     padding: 20px;
     text-align: center;
     padding-bottom: 20px;    
 }
+
+/*///////////////////////////////////////////////////////////////////////////////*/
+
 
 /*Ahora para la medida de dispositivos moviles  vamos a cuadrar con lo siguiente*/
 
