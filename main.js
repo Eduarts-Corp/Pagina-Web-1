@@ -5,9 +5,9 @@ document.querySelector('.menu-btn').addEventListener('click',()=>{
 
 ScrollReveal().reveal('.showcase'); 
 /*De la manera de arriba voy a ver mi pantalla como con un pequeño scroll*/ 
-ScrollReveal().reveal('.news-cards',{delay:500});
+ScrollReveal().reveal('.news-cards',{delay:2000});
 /*Aplicamos el scroll para la segunda seccion*/
-ScrollReveal().reveal('.cards-banner-one',{delay:500});
+ScrollReveal().reveal('.cards-banner-one',{delay:3000});
 /*Aplicamos el scroll para la tercer seccion*/
-ScrollReveal().reveal('.cards-banner-two',{delay:500});
+ScrollReveal().reveal('.cards-banner-two',{delay:3000});
 
